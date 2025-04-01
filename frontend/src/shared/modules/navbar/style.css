@@ -1,0 +1,248 @@
+#nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-top: 51px;
+    z-index: 10000;
+    transition: padding .5s ease, top .5s ease;
+}
+
+#nav.scrolled {
+    background-color: #FFFFFF;
+    top: 0;
+    padding: 34px 0px;
+}
+
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+    margin-left: 146px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+}
+
+.nav-list li:hover a {
+    transition: all .5s ease;
+    color: var(--main-color);
+}
+
+.callback-content {
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+    margin-left: 170px;
+    margin-right: 67px;
+}
+
+.call-button {
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color .5s ease;
+    position: relative;
+    outline: none;
+}
+
+.call-button:hover {
+    background-color: var(--main-color);
+}
+
+.call-button:hover .phone-icon path {
+    fill: #FFFFFF;
+}
+
+.call-button:active {
+    top: 2px;
+}
+
+.call-number {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #000;
+    text-decoration: none;
+}
+
+.cart-content {
+    position: relative;
+}
+
+.count-cart {
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #998E78;
+    color: #FFFFFF;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 9px;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+
+
+.callback-popup-back {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #6E9C9FF2;
+    z-index: 10;
+}
+
+.callback-popup {
+    width: 491px;
+    padding: 70px;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%); 
+    z-index: 12;
+}
+
+.close-icon {
+    position: absolute;
+    top: 32px;
+    right: 31.5px;
+    cursor: pointer;
+}
+
+.close-icon:hover {
+    background-color: #509498;
+}
+
+.popup-title {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    color: #000;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#popup-form {
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-input,
+.mail-input,
+.phone-input {
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    padding-bottom: 16px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23.8px;
+    letter-spacing: 0.02em;
+    outline: none;
+    transition: border-color .5s ease, box-shadow .5s ease, padding .5s ease;
+}
+
+.name-input:focus,
+.mail-input:focus,
+.phone-input:focus {
+    padding: 0 0 8px 5px;
+    border-bottom: 2px solid #509498;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.6);
+}
+
+
+
+.name-input::placeholder,
+.mail-input::placeholder,
+.phone-input::placeholder {
+    color: #868686;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23.8px;
+    letter-spacing: 0.02em;
+}
+
+.popup-button {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23.61px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background-color: var(--main-color);
+    border: 0;
+    padding: 22px 0;
+    cursor: pointer;
+    transition: background-color .5s ease;
+}
+
+.popup-button:hover {
+    background-color: #509498;
+}
+
+
+.popup-succeed {
+    padding: 70px;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    z-index: 12;
+    text-align: center;
+}
+
+.popup-close-btn {
+    padding: 22px 50px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23.61px;
+    letter-spacing: 0.02em;
+    outline: none;
+    cursor: pointer;
+    transition: background-color .5s ease;
+    color: #6E9C9F;
+}
+
+.popup-close-btn:hover {
+    background-color: #509498;
+    color: #FFFFFF;
+    border-color: #6E9C9F;
+}
+
+.d-none {
+    display: none;
+}
+
+
+  

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О бренде</title>
+    <link rel="stylesheet" href="../src/index.css">
+    <link rel="stylesheet" href="../src/shared/modules/index.css">
+    <link rel="stylesheet" href="../src/pages/page-1/modules/index.css">
+    <link rel="stylesheet" href="/src/pages/page-1/modules/blog/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <slot id="navbar"></slot>
+    <slot id="order"></slot>
+    <slot id="about-brand"></slot>
+    <slot id="footer"></slot>
+
+
+    <script src="../src/index.js" type="module"></script>
+    <script src="../src/shared/modules/index.js" type="module"></script>
+    <script src="../src/pages/page-1/modules/index.js" type="module"></script>
+    <script src="/src/pages/page-1/modules/about-brand/index.js" type="module"></script>
+    <!-- <script src="/src/pages/page-1/modules/contacts/index.js"></script> -->
+</body>
+
+</html>

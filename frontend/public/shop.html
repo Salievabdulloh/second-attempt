@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин</title>
+    <link rel="stylesheet" href="../src/index.css">
+    <link rel="stylesheet" href="../src/shared/modules/index.css">
+    <link rel="stylesheet" href="../src/pages/shop/modules/index.css">
+</head>
+
+<body>
+
+    <slot id="navbar"></slot>
+    <slot id="product-list"></slot>
+    <slot id="footer"></slot>
+
+    <script src="../src/index.js" type="module"></script>
+    <script src="../src/shared/modules/index.js" type="module"></script>
+    <script src="../src/pages/shop/modules/index.js" type="module"></script>
+</body>
+
+</html>

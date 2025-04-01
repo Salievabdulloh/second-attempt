@@ -1,0 +1,16 @@
+export const products = [
+    { id: 1, name: "Осеннее пальто TJK", price: 129, category: "coats", img: '../src/shared/images/palto.png' },
+    { id: 3, name: "Свитшот Sweet Shot", price: 129, category: "sweatshirts", img: '../src/shared/images/sweetshot.png' },
+    { id: 5, name: "Футболка USA", price: 129, category: "cardigans", img: '../src/shared/images/footbolka.png' },
+    { id: 7, name: "Купальник Glow", price: 129, category: "hoodies", img: '../src/shared/images/cupalnick.png' },
+    { id: 2, name: "Осеннее пальто TJK", price: 129, category: "coats", img: '../src/shared/images/palto.png' },
+    { id: 4, name: "Свитшот Sweet Shot", price: 129, category: "sweatshirts", img: '../src/shared/images/sweetshot.png' },
+    { id: 6, name: "Футболка USA", price: 129, category: "cardigans", img: '../src/shared/images/footbolka.png' },
+    { id: 8, name: "Купальник Glow", price: 129, category: "hoodies", img: '../src/shared/images/cupalnick.png' },
+    { id: 10, name: "Осеннее пальто TJK", price: 129, category: "coats", img: '../src/shared/images/palto.png' },
+    { id: 11, name: "Свитшот Sweet Shot", price: 129, category: "sweatshirts", img: '../src/shared/images/sweetshot.png' },
+    { id: 9, name: "Купальник Glow", price: 129, category: "hoodies", img: '../src/shared/images/cupalnick.png' },
+    { id: 14, name: "Футболка USA", price: 129, category: "cardigans", img: '../src/shared/images/footbolka.png' },
+    { id: 12, name: "Свитшот Sweet Shot", price: 129, category: "sweatshirts", img: '../src/shared/images/sweetshot.png' },
+    { id: 13, name: "Осеннее пальто TJK", price: 129, category: "coats", img: '../src/shared/images/palto.png' },
+];

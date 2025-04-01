@@ -1,0 +1,163 @@
+* {
+    font-family: "Raleway", serif
+}
+
+main {
+    margin: 190px 248px 130px 245px;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23.8px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.top-div {
+    margin-bottom: 214px;
+}
+
+.small-main {
+    display: flex;
+    gap: 13px;
+}
+
+
+.small-main :nth-child(3) {
+    color: rgba(144, 144, 144, 1);
+}
+
+.img-div-1,
+.img-div-2 {
+    display: flex;
+    width: 1078px;
+    gap: 94px;
+}
+
+.img-div-1 img,
+.img-div-2 img {
+    width: 442px;
+    height: 547px;
+}
+
+.img-div-1 {
+    margin-bottom: 130px;
+}
+
+.text-div {
+    margin: 113px 0px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.map-div {
+    margin-top: 32px;
+
+}
+
+.map-img {
+    width: 1109px;
+    height: 476px;
+    margin-bottom: 130px;
+}
+
+.addresses-div {
+    display: flex;
+    gap: 100px;
+}
+
+.inputs-div {
+    margin-top: 130px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid;
+    width: 350px;
+    padding-bottom: 16px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+textarea {
+    border: none;
+    border-bottom: 1px solid;
+    width: 443px;
+    padding-bottom: 110px;
+}
+
+.inputs-div p {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23.8px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+input:active {
+    border: none;
+}
+
+.send {
+    padding: 22px 50px 22px 50px;
+    background-color: hsl(184, 20%, 53%);
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23.61px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 62px;
+}
+
+.sent {
+    border: none;
+    cursor: pointer;
+    padding: 30px 76px;
+    background-color: rgba(241, 234, 220, 1);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23.8px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    display: none;
+    margin-bottom: 50px;
+}
+
+.send:hover {
+    background-color: hsl(184, 20%, 63%);
+}
+
+.send:active {
+    background-color: hsl(184, 20%, 73%);
+}

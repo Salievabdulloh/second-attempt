@@ -1,0 +1,32 @@
+<section id="shop">
+    <div class="container shop-container">
+        <div class="shop-intro">
+            <h1 class="shop-heading">Магазин</h1>
+            <div class="shop-nav">
+                <a href="../public/home.html" class="home-page">Главная</a>
+                <span class="line"></span>
+                <a href="../public/shop.html" class="shop-page">Магазин</a>
+            </div>
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn btn-actived" data-category="all" tabindex="0">Все</button>
+            <button class="filter-btn" data-category="coats" tabindex="0">Пальто</button>
+            <button class="filter-btn" data-category="sweatshirts" tabindex="0">Свитшоты</button>
+            <button class="filter-btn" data-category="cardigans" tabindex="0">Кардиганы</button>
+            <button class="filter-btn" data-category="hoodies" tabindex="0">Толстовки</button>
+        </div>
+        <p id="product-count">Показано все товары</p>
+
+        <p id="loading-message" class="hide">Загрузка...</p>
+
+        <div id="products"></div>
+
+        <p id="product-count2">Показано все товары</p>
+
+        <div class="pagination">
+            <span id="current-page" class="active-page">1</span> <span id="total-pages">2</span>
+            <button id="next-page" class="page-btn">→</button>
+        </div>
+    </div>
+</section>

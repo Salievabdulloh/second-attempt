@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+:root {
+    --main-color: #6E9C9F;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
